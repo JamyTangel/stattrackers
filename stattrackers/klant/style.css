@@ -1,0 +1,79 @@
+
+@import url('https://fonts.google.com/specimen/Rubik');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Rubik', sans-serif;
+}
+
+.header {
+  width: auto;
+  height: 100px;
+  background-color: #7CA5B8;
+}
+
+ul {
+  /* position: absolute; */
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  float: right;
+  width: 30%;
+  margin-top: 30px;
+}
+
+li {
+  padding-right: 100px;
+} 
+
+.titel {
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+}
+
+.knoppen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.overzicht {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 250px;
+  background-color: white;
+  color: black;
+  width: 1000px;
+  padding: 100px;
+
+}
+
+.button {
+  background-color: #38369A; 
+  background-image: #38369A;
+  border: none;
+  color: white;
+  padding: 40px 57px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 150px;
+}
+
+.knoppen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.center {
+  margin-left: 700px;
+  margin-top: 200px;
+}
+
